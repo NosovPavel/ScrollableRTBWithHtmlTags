@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Scrollablertbwithhtmltags : Поможет отобразить длинный текст в элементе в обход ограничения по высоте " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Scrollablertbwithhtmltags</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/NosovPavel/ScrollableRTBWithHtmlTags">View on GitHub</a>
+
+          <h1 id="project_title">Scrollablertbwithhtmltags</h1>
+          <h2 id="project_tagline">Поможет отобразить длинный текст в элементе в обход ограничения по высоте </h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/NosovPavel/ScrollableRTBWithHtmlTags/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/NosovPavel/ScrollableRTBWithHtmlTags/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="scrollablerichtextboxwithhtmltags" class="anchor" href="#scrollablerichtextboxwithhtmltags"><span class="octicon octicon-link"></span></a>ScrollableRichTextBoxWithHtmlTags</h1>
+
+<p>Этот проект поможет отобразить длинный текст в приложении для Windows Phone 7\8 с html вставками в одном элеменете. Прична по которой был создан этот проект - ограничение по высоте элементов в Windows Phone 7\8. </p>
+
+<h1>
+<a name="%D0%9A%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C" class="anchor" href="#%D0%9A%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C"><span class="octicon octicon-link"></span></a>Как использовать:</h1>
+
+<ol>
+<li>Склонировать</li>
+<li>Открыть в VS</li>
+<li>Запустить и потестировать</li>
+<li>Собранную dll из папки (ScrollableRTBWithHtmlTags\Phone.Controls\Bin\Debug(Release)\Phone.Controls.dll) добавить в свой проект</li>
+<li>Добавить ссылку на Phone.Controls.dll в свой проект</li>
+<li>Добавить пространство имен в .xaml файл xmlns:my="clr-namespace:Phone.Controls;assembly=Phone.Controls"</li>
+<li>Добавить следующий код в .xaml файл страницы:<br>&lt;grid grid.row="1" margin="12,0,12,0" x:name="ContentPanel"&gt;<br>&lt;my:scrollabletextblock horizontalalignment="Left" name="scrollableTextBlock1" verticalalignment="Top"&gt;<br>&lt;/my:scrollabletextblock&gt;&lt;/grid&gt;</li>
+<li>В .cs файл страницы добавить scrollableTextBlock1.Text = text; (вместо переменной text передаем сюда свой html код)</li>
+</ol><p>Этот проект является объединением нескольких проектов созданных Александр Краковецким и Ахмедом Шериевым и дополенным автором этих строк. </p>
+
+<p>Вопросы и пожелания пишите на почту <a href="mailto:NosovPavel2005@yandex.ru">NosovPavel2005@yandex.ru</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Scrollablertbwithhtmltags maintained by <a href="https://github.com/NosovPavel">NosovPavel</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
