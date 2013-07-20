@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{7A4E0028-2F0A-48AD-B2DE-3D77CF4F36B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone.Controls", "..\Phone.Controls\Phone.Controls.csproj", "{71A41463-066F-444A-B774-5FB036C913A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone.Controls", "Phone.Controls\Phone.Controls.csproj", "{71A41463-066F-444A-B774-5FB036C913A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
