@@ -11,7 +11,12 @@ ScrollableRichTextBoxWithHtmlTags
 <li>Собранную dll из папки (ScrollableRTBWithHtmlTags\Phone.Controls\Bin\Debug(Release)\Phone.Controls.dll) добавить в свой проект</li>
 <li>Добавить ссылку на Phone.Controls.dll в свой проект</li>
 <li>Добавить пространство имен в .xaml файл xmlns:my="clr-namespace:Phone.Controls;assembly=Phone.Controls"</li>
-<li>Добавить следующий код в .xaml файл страницы:<br />&lt;grid grid.row="1" margin="12,0,12,0" x:name="ContentPanel"&gt;<br />&lt;my:scrollabletextblock horizontalalignment="Left" name="scrollableTextBlock1" verticalalignment="Top"&gt;<br />&lt;/my:scrollabletextblock&gt;&lt;/grid&gt;</li>
+<li>Добавить следующий код в .xaml файл страницы:<br />       &lt;Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"&gt;
+            &lt;my:ScrollableTextBlock            
+                HorizontalAlignment="Left"  Name="scrollableTextBlock1" 
+                  VerticalAlignment="Top"/&gt;
+        &lt;/Grid&gt;</li>
+<li> 
 <li>В .cs файл страницы добавить scrollableTextBlock1.Text = text; (вместо переменной text передаем сюда свой html код)</li>
 </ol>
 
