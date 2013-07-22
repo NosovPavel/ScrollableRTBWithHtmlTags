@@ -16,7 +16,6 @@ ScrollableRichTextBoxWithHtmlTags
                 HorizontalAlignment="Left"  Name="scrollableTextBlock1" 
                   VerticalAlignment="Top"/&gt;
         &lt;/Grid&gt;</li>
-<li> 
 <li>В .cs файл страницы добавить scrollableTextBlock1.Text = text; (вместо переменной text передаем сюда свой html код)</li>
 </ol>
 
